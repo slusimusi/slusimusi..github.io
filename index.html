@@ -1,0 +1,189 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Портфолио</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Портфолио" />
+<script type="applijegleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />	
+<script src="js/jquery-1.11.1.min.js"></script>
+<!--webfonts-->
+<link href='//fonts.googleapis.com/css?family=Candal|Raleway:500,600,400' rel='stylesheet' type='text/css'>
+<!--//webfonts-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+</head>
+<body>
+<!--start-home-->
+					<ul class="side_nav">
+							<li><a class="active scroll" href="#home"></a></li>
+								<li><a class="scroll" href="#about"></a></li>
+								<li><a class="scroll" href="#port"></a></li>
+								<li><a class="scroll" href="#contact"></a></li>
+					</ul>
+		<div class="banner" id="home">
+			<div class="header-top">
+				<div class="container">	
+					<!--top-nav-->
+					<span class="menu"> </span>
+					<div class="top-menu">
+						<nav>
+							<ul class="cl-effect-16">
+								<li><a class="active scroll" href="#home" data-hover="Home">Home</a></li>
+								<li><a class="scroll" href="#about" data-hover="Обо мне">Обо мне</a></li>
+								<li><a class="scroll" href="#port" data-hover="Портфолио">Портфолио</a></li>
+								<li><a class="scroll" href="#contact" data-hover="Связаться со мной">Связаться со мной</a></li>
+							</ul>
+						</nav>		
+                    </div>
+
+				<!-- script-for-menu -->
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+								<!-- script-for-menu -->
+
+				 <div class="clearfix"></div>
+			<!-- script-for-menu -->
+		    </div>
+		  </div>
+		<!--banner-->	
+		<div class="container">	
+		      <!-- script-for-menu -->	  	 
+				  <div class="banner-info">	
+						 <div class="logo">
+							  <a href="index.html"><h1>Портфолио </h1></a>
+						  </div>
+						<p>HTML, CSS, Photoshop и немного JS</p>
+						<div class="scroll-down">
+						 <h4>ДАЛЕЕ</h4>
+						<a class="downarrow scroll" href="#about"><span></span></a>
+						</div>
+				  </div>
+			</div>
+		</div>
+	<!--about-->
+	<div class="about" id="about">
+	   <div class="container">
+	   <h3 class="tittle">Обо мне</h3>
+	      <div class="col-md-5 ab-grid pic">
+		  <img src="images/my-foto.jpg" width="432" height="540" alt="Мое фото">
+		  </div>
+		  <div class="col-md-7 ab-grid text">
+		    <h4>Меня зовут Ольга, проживаю в городе Краснодаре.</h4>
+			<p>Занимаюсь версткой веб-страниц.</p>
+			<p>В 2018 году окончила интенсив "Профессиональный HTMl и CSS, уровень 1" и защитила выпускной проект на 93%.</p>
+			<p>Далее планирую пойти на второй уровень.</p>
+			 
+		  </div>
+		  <div class="clearfix"> </div>
+	   </div>
+    </div>	   
+	<!--//about-->
+  
+		<!--portfolio-->
+
+	<div class="gallery" id="port">
+		<div class="container">
+			<h3 class="tittle port">Портфолио</h3>
+		   <div class="gallery-bottom">
+					<div class="col-md-4 bottom-gallery">
+						<a href="index%20(2).html">
+						  <img src="images/nerds-index.jpg" alt="Nёrds">
+	                    </a>
+					</div>
+					<div class="col-md-4 bottom-gallery">
+						<a href="index%20(3).html">
+						  <img src="images/PC_version_2_0.jpg" alt="Bakery">
+	                    </a>
+					</div>
+					<div class="col-md-4 bottom-gallery">
+						<a href="index%20(4).html">
+				           <img class="img-responsive" src="images/surfingInstitute.jpg" alt="Surfing Institute">
+	                    </a>
+					</div>
+			</div>
+		</div>
+	</div>
+
+<!--//portfolio-->
+
+ <!--start-contact-->
+	 <div class="contact_desc" id="contact">
+		        <div class="container">
+		        	<h3 class="tittle">Связаться со мной</h3>
+			         <div class="contact-form">
+				  	   <form class="left_form">
+					    	<div>
+						    	<span><label>Ваше имя</label></span>
+						    	<span><input name="userName" type="text" class="textbox"></span>
+						    </div>
+						    <div>
+						    	<span><label>Ваш E-mail</label></span>
+						    	<span><input name="userEmail" type="text" class="textbox"></span>
+						    </div>
+						    <div>
+						     	<span><label>Ваш телефон</label></span>
+						    	<span><input name="userPhone" type="text" class="textbox"></span>
+						    </div>
+					    </form>
+					    <form class="right_form">
+					        <div>					    	
+						    	<span><label>Текст сообщения</label></span>
+						    	<span><textarea name="userMsg"> </textarea></span>
+						    </div>
+						   <div>
+						   		<input type="submit" value="Отправить" />
+						  </div>
+					    </form>
+					    <div class="clearfix"></div>
+				  </div>
+				  </div>
+			</div>
+	<!--//contact-->
+
+	<!--footer-->
+	<div class="copy">
+		<p>&copy; 2018 Personale. All Rights Reserved | Design by <a href="http://w3layouts.com/">W3layouts</a> </p>
+	</div>
+							<!--start-smoth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>
