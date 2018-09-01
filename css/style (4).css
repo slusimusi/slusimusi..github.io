@@ -2,7 +2,7 @@
     font-family: 'Avenir Roman';
     font-style: normal;
     font-weight: normal;
-    src: local('Avenir-Roman'), url('Avenir-Roman.ttf') format('ttf');
+    src: local('Avenir Roman'), url('Avenir Roman.otf') format('otf');
 }
 
 @font-face {
@@ -189,7 +189,11 @@ li {
 }
 
 .recent-reviews .second {
-    margin-top: 12px;
+    margin-top: 4px;
+}
+
+.second .author {
+    margin-top: 7px;
 }
 
 .text-reviews p {
@@ -226,7 +230,7 @@ li {
 }
 
 .user-videos-img {
-    margin-bottom: 21px;
+    margin-bottom: 18px;
 }
 
 .instractors {
@@ -261,7 +265,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 6px;
+    margin-top: 3px;
 }
 
 .info-card-text h3 {
